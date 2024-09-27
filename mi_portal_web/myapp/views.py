@@ -11,8 +11,10 @@ def contact(request):
     return render(request, 'myapp/contact.html')
 
 def service(request):
-    return HttpResponse("este es un servicio")
+    return render(request, 'myapp/service.html')
 
 def blog(request):
-    return HttpResponse("este es un blog")
+    return render(request, 'myapp/blog.html')
+def prtafolio(request):
+    return render(request, 'myapp/portafolio.html')
 # Create your views here.
